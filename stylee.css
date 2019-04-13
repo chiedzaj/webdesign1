@@ -1,0 +1,190 @@
+body{
+  background-image: url("https://cdn.audleytravel.com/-/-/79/176076074005032068166154076048076025213042234042.jpg");
+  background-color: black;
+  size: cover;
+}
+
+body p{
+	font-size: 0.8em;
+	line-height: 1.28;
+	text-align: center;
+}
+
+#wrapper{
+	width: 1080px;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	border: 5ps solid #dedede;
+}
+
+#content-area{
+	float: left;
+	width: 75px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+
+}
+
+#sidebar2{
+	float: right;
+	width: 200px;
+	height: 100px;
+	margin: 10px 0px 5px 10px;
+	padding: 10px;
+	border: 2px solid #e3e3e3;
+	 
+}
+
+
+footer{
+	background-color:#313131;
+	clear: both;
+	width: 100%;
+    bottom: 0;
+    position: fixed;
+	height: 40px;
+	padding: 0px;
+	border: 3px solid #e3e3e3;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0.1em 0.1em #333; 
+}
+
+
+/*
+#navigation{
+	height: 60px;
+	border: 3px solid #e3e3e3;
+	margin-top: 0px;
+	text-shadow: 40px;
+	background-color: black;
+	opacity: 0.8;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-size: 60px;
+}
+
+#nav{
+	list-style: none;
+}
+
+#nav ul{
+	margin-top: 20px;
+	padding: 20px;
+	width: auto;
+	display: none;
+}
+
+#nav li{
+	font-size: 28px;
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	border: 1px solid;
+
+}
+
+#nav a:link, nav a:active, nav a:visited{
+	display: block;
+	color: #31313;
+	text-decoration: none;
+}
+
+#nav a:hover{
+	color:blue;
+}
+
+*/
+
+@charset "UTF-8";
+body {
+	font-size: 85%;
+}
+h1 {
+	color: white;
+	margin-left: 150px;
+	font-size: 50px;
+	text-align: center;
+}
+h2{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	margin-left: 150px;
+}
+
+h5{
+	color: white;
+	font-size: 15px;
+}
+
+form, p.warning {
+	margin-right: 1000px;
+}
+label {
+	display: block;
+}
+input {
+	width: 20em;
+}
+textarea {
+	width: 20em;
+	height: 10em;
+}
+input[type=submit] {
+	margin-left: 10.5em;
+	width: 10px;
+	height: 5px;
+	background-color: #1499DC;
+	color: orange;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+}
+.warning {
+	font-weight: bold;
+	color: white;
+}
+fieldset {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: green;
+}
+
+ul li ul li{
+	display: none;
+	color: white;
+
+}
+
+ul li:hover ul li{
+	display: block;
+
+}

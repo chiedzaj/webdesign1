@@ -1,0 +1,39 @@
+body{
+	background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)), url(afric11.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.login-box{
+	max-width:700px;
+	float:none;
+	margin:150px auto;
+
+}
+
+.login-left{
+	background:rgba(211,211,211,0.5);
+	padding: 30px;
+}
+
+.login-right{
+	background: #fff;
+	padding: 30px;
+}
+
+.form-control{
+	background-color: transpare !important;
+}
+
+a{
+	color: rgba(50,20,50,0.5) !important;
+	margin-right:1200px;
+	font-size: 15px;
+}
+
+h1{
+	color:#ffffff;
+	margin-top:0px !important;
+	text-align: center;
+	text-transform: uppercase;
+}
